@@ -1,0 +1,10 @@
+{
+  "lock": false,
+  "tasks": {
+    "start": "deno -A main.ts",
+    "outdated": "deno outdated --update --latest"
+  },
+  "imports": {
+    "@std/http": "jsr:@std/http@^1.0.13"
+  }
+}
